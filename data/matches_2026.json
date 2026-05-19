@@ -2,7 +2,7 @@
   "meta": {
     "club": "Ceará Sporting Club",
     "season": 2026,
-    "updated": "2026-05-12",
+    "updated": "2026-05-19",
     "competitions": {
       "CEARENSE": "Campeonato Cearense",
       "COPA_BR":  "Copa do Brasil",
@@ -391,6 +391,36 @@
       "away_score": 1,
       "ceara_side": "home",
       "scorers": []
+    },
+    {
+      "date": "2026-05-13",
+      "competition": "COPA_BR",
+      "round": "5ª Fase (Oitavas) — Jogo 2",
+      "home": "Ceará",
+      "away": "Atlético-MG",
+      "home_score": 2,
+      "away_score": 1,
+      "ceara_side": "home",
+      "note": "Agregado 2–2. Atlético-MG avança nos pênaltis (4–2). Fernando e Rafael Ramos perderam cobranças pelo Ceará. Ceará eliminado da Copa do Brasil.",
+      "scorers": [
+        { "player": "Alex Silva",    "minute": 8,  "team": "ceara", "note": "pênalti" },
+        { "player": "Gustavo Prado", "minute": 23, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-05-17",
+      "competition": "SERIE_B",
+      "round": "Rodada 9",
+      "home": "Ceará",
+      "away": "Fortaleza",
+      "home_score": 2,
+      "away_score": 1,
+      "ceara_side": "home",
+      "note": "Ceará virou de 0–1 no segundo tempo. 15 jogos sem derrota para o Fortaleza.",
+      "scorers": [
+        { "player": "Melk",        "minute": 58, "team": "ceara" },
+        { "player": "Júlio César", "minute": 69, "team": "ceara" }
+      ]
     }
   ]
 }
