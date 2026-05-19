@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "club": "Ceará Sporting Club",
+    "note": "position é sempre 1-indexado dentro da divisão daquele ano. null indica anos sem dados confirmados ou temporada em andamento — renderizado como lacuna no gráfico.",
+    "sources": [
+      "Transfermarkt — Ceará SC Platzierungen",
+      "Wikipedia — Ceará Sporting Club",
+      "RSSSF — Brazil historical records",
+      "Diário do Nordeste — histórico Brasileirão"
+    ]
+  },
+  "seasons": [
+    { "year": 1999, "division": "A", "position": 23, "relegated": true },
+    { "year": 2000, "division": "B", "position": 11 },
+    { "year": 2001, "division": "B", "position": 9 },
+    { "year": 2002, "division": "B", "position": 11 },
+    { "year": 2003, "division": "B", "position": 15 },
+    { "year": 2004, "division": "B", "position": 14 },
+    { "year": 2005, "division": "B", "position": 13 },
+    { "year": 2006, "division": "B", "position": 14 },
+    { "year": 2007, "division": "B", "position": 12 },
+    { "year": 2008, "division": "B", "position": 10 },
+    { "year": 2009, "division": "B", "position": 3, "promoted": true },
+    { "year": 2010, "division": "A", "position": 12 },
+    { "year": 2011, "division": "A", "position": 18, "relegated": true },
+    { "year": 2012, "division": "B", "position": 11 },
+    { "year": 2013, "division": "B", "position": 7 },
+    { "year": 2014, "division": "B", "position": 8 },
+    { "year": 2015, "division": "B", "position": 15 },
+    { "year": 2016, "division": "B", "position": 10 },
+    { "year": 2017, "division": "B", "position": 3, "promoted": true },
+    { "year": 2018, "division": "A", "position": 15 },
+    { "year": 2019, "division": "A", "position": 16 },
+    { "year": 2020, "division": "A", "position": 11 },
+    { "year": 2021, "division": "A", "position": 11 },
+    { "year": 2022, "division": "A", "position": 17, "relegated": true },
+    { "year": 2023, "division": "B", "position": 11 },
+    { "year": 2024, "division": "B", "position": 4, "promoted": true },
+    { "year": 2025, "division": "A", "position": 17, "relegated": true },
+    { "year": 2026, "division": "B", "position": null, "note": "Temporada em andamento" }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "meta": {
+    "club": "Ceará Sporting Club",
+    "season": 2026,
+    "updated": "2026-05-12",
+    "competitions": {
+      "CEARENSE": "Campeonato Cearense",
+      "COPA_BR":  "Copa do Brasil",
+      "COPA_NE":  "Copa do Nordeste",
+      "SERIE_B":  "Brasileirão Série B"
+    },
+    "note": "Scorers com minute:null = marcador confirmado, minuto não disponível. Scorers array vazio = nenhum gol do Ceará ou informação não disponível. Fontes: Goal.com, Wikipedia, Diário do Nordeste, cearasc.com."
+  },
+  "matches": [
+    {
+      "date": "2026-01-10",
+      "competition": "CEARENSE",
+      "round": "1ª Fase — Rodada 2",
+      "home": "Floresta",
+      "away": "Ceará",
+      "home_score": 0,
+      "away_score": 1,
+      "ceara_side": "away",
+      "scorers": [
+        { "player": "Enzo Lodovico", "minute": 57, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-01-14",
+      "competition": "CEARENSE",
+      "round": "1ª Fase — Rodada 3",
+      "home": "Ceará",
+      "away": "Maranguape",
+      "home_score": 1,
+      "away_score": 0,
+      "ceara_side": "home",
+      "scorers": [
+        { "player": "Vina", "minute": 44, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-01-17",
+      "competition": "CEARENSE",
+      "round": "1ª Fase — Rodada 4",
+      "home": "Ceará",
+      "away": "Iguatu",
+      "home_score": 1,
+      "away_score": 1,
+      "ceara_side": "home",
+      "scorers": [
+        { "player": "Lucca", "minute": 51, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-01-21",
+      "competition": "CEARENSE",
+      "round": "1ª Fase — Rodada 5",
+      "home": "Tirol",
+      "away": "Ceará",
+      "home_score": 1,
+      "away_score": 4,
+      "ceara_side": "away",
+      "scorers": [
+        { "player": "Vina",          "minute": 1,  "team": "ceara" },
+        { "player": "Pedro Henrique","minute": 64, "team": "ceara" },
+        { "player": "Vina",          "minute": 87, "team": "ceara", "note": "pênalti" },
+        { "player": "Matheus Araújo","minute": 90, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-01-25",
+      "competition": "CEARENSE",
+      "round": "2ª Fase — Rodada 1",
+      "home": "Ferroviário",
+      "away": "Ceará",
+      "home_score": 1,
+      "away_score": 5,
+      "ceara_side": "away",
+      "scorers": [
+        { "player": "Gilmar",        "minute": 6,  "team": "ceara" },
+        { "player": "Matheus Araújo","minute": 37, "team": "ceara" },
+        { "player": "Matheus Araújo","minute": 44, "team": "ceara" },
+        { "player": "Lucca",         "minute": 74, "team": "ceara" },
+        { "player": "Fernandinho",   "minute": 85, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-02-01",
+      "competition": "CEARENSE",
+      "round": "2ª Fase — Rodada 2",
+      "home": "Ceará",
+      "away": "Horizonte",
+      "home_score": 4,
+      "away_score": 0,
+      "ceara_side": "home",
+      "scorers": [
+        { "player": "Matheus Araújo","minute": 10, "team": "ceara" },
+        { "player": "Pedro Henrique","minute": 51, "team": "ceara" },
+        { "player": "Juan Alano",    "minute": 69, "team": "ceara" },
+        { "player": "Vina",          "minute": 89, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-02-08",
+      "competition": "CEARENSE",
+      "round": "2ª Fase — Rodada 3",
+      "home": "Ceará",
+      "away": "Fortaleza",
+      "home_score": 0,
+      "away_score": 0,
+      "ceara_side": "home",
+      "scorers": []
+    },
+    {
+      "date": "2026-02-15",
+      "competition": "CEARENSE",
+      "round": "Semifinal — Jogo 1",
+      "home": "Floresta",
+      "away": "Ceará",
+      "home_score": 0,
+      "away_score": 3,
+      "ceara_side": "away",
+      "scorers": [
+        { "player": "Rafael Ramos", "minute": 16, "team": "ceara" },
+        { "player": "Vina",         "minute": 39, "team": "ceara" },
+        { "player": "Vina",         "minute": 77, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-02-22",
+      "competition": "CEARENSE",
+      "round": "Semifinal — Jogo 2",
+      "home": "Ceará",
+      "away": "Floresta",
+      "home_score": 4,
+      "away_score": 0,
+      "ceara_side": "home",
+      "note": "Agregado 7–0. Ceará avança à final.",
+      "scorers": [
+        { "player": "Matheusinho",  "minute": 5,    "team": "ceara" },
+        { "player": "Wendel Silva", "minute": null, "team": "ceara" },
+        { "player": "A confirmar",  "minute": null, "team": "ceara" },
+        { "player": "A confirmar",  "minute": null, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-03-01",
+      "competition": "CEARENSE",
+      "round": "Final — Jogo 1",
+      "home": "Fortaleza",
+      "away": "Ceará",
+      "home_score": 1,
+      "away_score": 1,
+      "ceara_side": "away",
+      "scorers": [
+        { "player": "A confirmar", "minute": null, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-03-08",
+      "competition": "CEARENSE",
+      "round": "Final — Jogo 2",
+      "home": "Ceará",
+      "away": "Fortaleza",
+      "home_score": 1,
+      "away_score": 1,
+      "ceara_side": "home",
+      "note": "Agregado 2–2. Fortaleza campeão nos pênaltis (5–4). Pelo Ceará converteram: Zanocelo, Fernando, Luizão e Rafael Ramos. Juan Alano perdeu.",
+      "scorers": [
+        { "player": "Luizão", "minute": 29, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-03-12",
+      "competition": "COPA_BR",
+      "round": "3ª Fase",
+      "home": "Maranhão",
+      "away": "Ceará",
+      "home_score": 0,
+      "away_score": 1,
+      "ceara_side": "away",
+      "scorers": [
+        { "player": "A confirmar", "minute": null, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-03-17",
+      "competition": "COPA_BR",
+      "round": "4ª Fase",
+      "home": "São Bernardo",
+      "away": "Ceará",
+      "home_score": 0,
+      "away_score": 0,
+      "ceara_side": "away",
+      "note": "Ceará avança nos pênaltis (3–2).",
+      "scorers": []
+    },
+    {
+      "date": "2026-03-21",
+      "competition": "SERIE_B",
+      "round": "Rodada 1",
+      "home": "Ceará",
+      "away": "São Bernardo",
+      "home_score": 1,
+      "away_score": 1,
+      "ceara_side": "home",
+      "scorers": [
+        { "player": "A confirmar", "minute": null, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-03-25",
+      "competition": "COPA_NE",
+      "round": "Grupo C — Rodada 1",
+      "home": "Ceará",
+      "away": "ABC",
+      "home_score": 1,
+      "away_score": 1,
+      "ceara_side": "home",
+      "scorers": [
+        { "player": "A confirmar", "minute": null, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-03-28",
+      "competition": "COPA_NE",
+      "round": "Grupo C — Rodada 2",
+      "home": "Retrô",
+      "away": "Ceará",
+      "home_score": 3,
+      "away_score": 1,
+      "ceara_side": "away",
+      "scorers": [
+        { "player": "A confirmar", "minute": null, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-04-01",
+      "competition": "SERIE_B",
+      "round": "Rodada 2",
+      "home": "Ponte Preta",
+      "away": "Ceará",
+      "home_score": 1,
+      "away_score": 1,
+      "ceara_side": "away",
+      "scorers": [
+        { "player": "A confirmar", "minute": null, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-04-04",
+      "competition": "SERIE_B",
+      "round": "Rodada 3",
+      "home": "Cuiabá",
+      "away": "Ceará",
+      "home_score": 0,
+      "away_score": 2,
+      "ceara_side": "away",
+      "scorers": [
+        { "player": "A confirmar", "minute": null, "team": "ceara" },
+        { "player": "A confirmar", "minute": null, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-04-08",
+      "competition": "COPA_NE",
+      "round": "Grupo C — Rodada 3",
+      "home": "Ceará",
+      "away": "Fortaleza",
+      "home_score": 2,
+      "away_score": 0,
+      "ceara_side": "home",
+      "scorers": [
+        { "player": "Fernando",   "minute": null, "team": "ceara" },
+        { "player": "Alex Silva", "minute": null, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "competition": "SERIE_B",
+      "round": "Rodada 4",
+      "home": "Ceará",
+      "away": "Náutico",
+      "home_score": 1,
+      "away_score": 0,
+      "ceara_side": "home",
+      "scorers": [
+        { "player": "A confirmar", "minute": null, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "competition": "COPA_NE",
+      "round": "Grupo C — Rodada 4",
+      "home": "Ceará",
+      "away": "Jacuipense",
+      "home_score": 4,
+      "away_score": 1,
+      "ceara_side": "home",
+      "scorers": [
+        { "player": "A confirmar", "minute": null, "team": "ceara" },
+        { "player": "A confirmar", "minute": null, "team": "ceara" },
+        { "player": "A confirmar", "minute": null, "team": "ceara" },
+        { "player": "A confirmar", "minute": null, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-04-19",
+      "competition": "SERIE_B",
+      "round": "Rodada 5",
+      "home": "Londrina",
+      "away": "Ceará",
+      "home_score": 0,
+      "away_score": 0,
+      "ceara_side": "away",
+      "scorers": []
+    },
+    {
+      "date": "2026-04-23",
+      "competition": "COPA_BR",
+      "round": "5ª Fase (Oitavas) — Jogo 1",
+      "home": "Atlético-MG",
+      "away": "Ceará",
+      "home_score": 2,
+      "away_score": 1,
+      "ceara_side": "away",
+      "scorers": [
+        { "player": "Wendel Silva", "minute": 62, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-04-26",
+      "competition": "SERIE_B",
+      "round": "Rodada 6",
+      "home": "Ceará",
+      "away": "Vila Nova",
+      "home_score": 3,
+      "away_score": 3,
+      "ceara_side": "home",
+      "scorers": [
+        { "player": "Matheus Araújo", "minute": null, "team": "ceara" },
+        { "player": "Matheus Araújo", "minute": null, "team": "ceara" },
+        { "player": "A confirmar",    "minute": null, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "competition": "COPA_NE",
+      "round": "Grupo C — Rodada 5",
+      "home": "Maranhão",
+      "away": "Ceará",
+      "home_score": 1,
+      "away_score": 3,
+      "ceara_side": "away",
+      "scorers": [
+        { "player": "A confirmar", "minute": null, "team": "ceara" },
+        { "player": "A confirmar", "minute": null, "team": "ceara" },
+        { "player": "A confirmar", "minute": null, "team": "ceara" }
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "competition": "SERIE_B",
+      "round": "Rodada 7",
+      "home": "Sport",
+      "away": "Ceará",
+      "home_score": 2,
+      "away_score": 0,
+      "ceara_side": "away",
+      "scorers": []
+    },
+    {
+      "date": "2026-05-06",
+      "competition": "COPA_NE",
+      "round": "Quartas de Final",
+      "home": "Vitória",
+      "away": "Ceará",
+      "home_score": 1,
+      "away_score": 0,
+      "ceara_side": "away",
+      "note": "Ceará eliminado da Copa do Nordeste. Gol do Vitória: Renato Kayzer.",
+      "scorers": []
+    },
+    {
+      "date": "2026-05-09",
+      "competition": "SERIE_B",
+      "round": "Rodada 8",
+      "home": "Ceará",
+      "away": "Atlético-GO",
+      "home_score": 0,
+      "away_score": 1,
+      "ceara_side": "home",
+      "scorers": []
+    }
+  ]
+}

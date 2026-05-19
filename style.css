@@ -1,0 +1,304 @@
+/* ===========================
+   VARIÁVEIS DE TEMA
+   Para mudar as cores: edite apenas este bloco.
+   =========================== */
+:root {
+  --color-primary:    #1a1a1a;
+  --color-secondary:  #ffffff;
+  --color-accent:     #555555;
+  --color-bg:         #f4f4f4;
+  --color-card:       #ffffff;
+  --color-border:     #ddd;
+  --color-win:        #2a7a2a;
+  --color-win-bg:     #edf7ed;
+  --color-draw:       #8a6800;
+  --color-draw-bg:    #fdf8e1;
+  --color-loss:       #b22020;
+  --color-loss-bg:    #fdeaea;
+  --color-note:       #555;
+  --radius:           6px;
+  --shadow:           0 1px 4px rgba(0,0,0,0.10);
+  --font:             'Segoe UI', system-ui, -apple-system, sans-serif;
+  --max-width:        1100px;
+}
+
+/* ===========================
+   RESET MÍNIMO
+   =========================== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: var(--font);
+  background: var(--color-bg);
+  color: var(--color-primary);
+  line-height: 1.5;
+}
+img { display: block; max-width: 100%; }
+button { cursor: pointer; font-family: inherit; }
+
+/* ===========================
+   CABEÇALHO
+   =========================== */
+.site-header {
+  background: var(--color-primary);
+  color: var(--color-secondary);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 24px;
+}
+.site-logo {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+}
+.site-title h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.site-subtitle {
+  font-size: 0.8rem;
+  opacity: 0.7;
+  margin-top: 2px;
+}
+
+/* ===========================
+   ABAS (NAV)
+   =========================== */
+.tabs {
+  display: flex;
+  background: var(--color-primary);
+  border-bottom: 3px solid #333;
+  padding: 0 24px;
+  gap: 4px;
+}
+.tab {
+  background: transparent;
+  border: none;
+  color: rgba(255,255,255,0.6);
+  padding: 12px 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -3px;
+  transition: color 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+.tab:hover {
+  color: rgba(255,255,255,0.9);
+}
+.tab.active {
+  color: var(--color-secondary);
+  border-bottom-color: var(--color-secondary);
+}
+
+/* ===========================
+   CONTEÚDO PRINCIPAL
+   =========================== */
+.main-content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 28px 24px;
+}
+.tab-panel { display: block; }
+.tab-panel[hidden] { display: none; }
+
+/* ===========================
+   CABEÇALHO DE SEÇÃO
+   =========================== */
+.section-header { margin-bottom: 20px; }
+.section-header h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.section-desc {
+  color: var(--color-note);
+  font-size: 0.875rem;
+}
+
+/* ===========================
+   GRÁFICO HISTÓRICO
+   =========================== */
+.chart-legends {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.legend-line {
+  display: inline-block;
+  width: 32px;
+  height: 3px;
+  border-radius: 2px;
+}
+.legend-line--solid  { background: var(--color-primary); }
+.legend-line--dashed {
+  background: repeating-linear-gradient(
+    to right,
+    var(--color-accent) 0,
+    var(--color-accent) 6px,
+    transparent 6px,
+    transparent 10px
+  );
+}
+.legend-a { color: var(--color-primary); }
+.legend-b { color: var(--color-accent); }
+
+.chart-wrapper {
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px;
+  height: 440px;
+  position: relative;
+}
+.chart-note {
+  margin-top: 10px;
+  font-size: 0.78rem;
+  color: var(--color-note);
+}
+
+/* ===========================
+   RESUMO DE JOGOS (TOTAIS)
+   =========================== */
+.match-summary {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+.summary-card {
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 14px 20px;
+  text-align: center;
+  min-width: 90px;
+  box-shadow: var(--shadow);
+}
+.summary-card .summary-num {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.summary-card .summary-label {
+  font-size: 0.72rem;
+  color: var(--color-note);
+  margin-top: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.summary-card.wins   .summary-num { color: var(--color-win); }
+.summary-card.draws  .summary-num { color: var(--color-draw); }
+.summary-card.losses .summary-num { color: var(--color-loss); }
+
+/* ===========================
+   TABELAS DE JOGOS
+   =========================== */
+.competition-block { margin-bottom: 36px; }
+.competition-title {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 8px 12px;
+  background: var(--color-primary);
+  color: var(--color-secondary);
+  border-radius: var(--radius) var(--radius) 0 0;
+  letter-spacing: 0.3px;
+}
+.table-wrapper {
+  overflow-x: auto;
+  border: 1px solid var(--color-border);
+  border-top: none;
+  border-radius: 0 0 var(--radius) var(--radius);
+  box-shadow: var(--shadow);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--color-card);
+  font-size: 0.875rem;
+  min-width: 580px;
+}
+thead th {
+  background: #f0f0f0;
+  padding: 8px 12px;
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: var(--color-accent);
+  white-space: nowrap;
+}
+tbody tr { border-top: 1px solid #eee; }
+tbody tr:hover { background: #fafafa; }
+tbody td { padding: 9px 12px; vertical-align: middle; }
+
+/* Coluna de resultado com indicador colorido */
+td.result {
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  white-space: nowrap;
+  border-left: 4px solid transparent;
+}
+td.result.win  { border-left-color: var(--color-win);  color: var(--color-win);  background: var(--color-win-bg); }
+td.result.draw { border-left-color: var(--color-draw); color: var(--color-draw); background: var(--color-draw-bg); }
+td.result.loss { border-left-color: var(--color-loss); color: var(--color-loss); background: var(--color-loss-bg); }
+
+/* Jogos em casa do Ceará */
+tr.home-game td.confronto { font-weight: 600; }
+
+td.scorers {
+  color: var(--color-note);
+  font-size: 0.82rem;
+}
+td.scorers .scorer-ceara { color: var(--color-primary); font-weight: 600; }
+td.note-cell {
+  font-size: 0.78rem;
+  color: var(--color-note);
+  font-style: italic;
+}
+
+/* ===========================
+   RODAPÉ
+   =========================== */
+.site-footer {
+  text-align: center;
+  padding: 20px 24px;
+  font-size: 0.78rem;
+  color: var(--color-note);
+  border-top: 1px solid var(--color-border);
+  margin-top: 20px;
+}
+.site-footer code {
+  font-size: 0.78rem;
+  background: #eee;
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+/* ===========================
+   RESPONSIVO (mobile)
+   =========================== */
+@media (max-width: 600px) {
+  .site-header { padding: 12px 16px; }
+  .site-logo   { width: 44px; height: 44px; }
+  .site-title h1 { font-size: 1.1rem; }
+  .tabs { padding: 0 12px; }
+  .tab  { padding: 10px 14px; font-size: 0.82rem; }
+  .main-content { padding: 20px 12px; }
+  .chart-wrapper { height: 280px; padding: 12px; }
+  .match-summary { gap: 8px; }
+  .summary-card  { padding: 10px 14px; min-width: 72px; }
+  .summary-card .summary-num { font-size: 1.4rem; }
+}

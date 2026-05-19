@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dashboard com histórico e resultados do Ceará Sporting Club no Brasileirão e demais competições.">
+  <title>Ceará SC — Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script
+    src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <img src="assets/ceara-logo.svg" alt="Escudo do Ceará Sporting Club" class="site-logo">
+    <div class="site-title">
+      <h1>Ceará Sporting Club</h1>
+      <p class="site-subtitle">Dashboard Oficial de Desempenho</p>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Seções do dashboard">
+    <button
+      class="tab active"
+      data-tab="historico"
+      role="tab"
+      aria-selected="true"
+      aria-controls="historico"
+    >
+      Histórico no Brasileirão
+    </button>
+    <button
+      class="tab"
+      data-tab="jogos2026"
+      role="tab"
+      aria-selected="false"
+      aria-controls="jogos2026"
+    >
+      Jogos 2026
+    </button>
+  </nav>
+
+  <main class="main-content">
+
+    <!-- ABA 1: Histórico no Brasileirão -->
+    <section id="historico" class="tab-panel" role="tabpanel">
+      <div class="section-header">
+        <h2>Posições no Brasileirão (1999–2026)</h2>
+        <p class="section-desc">
+          Colocação final do Ceará em cada temporada do Campeonato Brasileiro.
+          Lacunas no gráfico indicam anos sem dados confirmados.
+        </p>
+      </div>
+
+      <div class="chart-legends">
+        <span class="legend-item legend-a">
+          <span class="legend-line legend-line--solid"></span>
+          Série A (1ª Divisão)
+        </span>
+        <span class="legend-item legend-b">
+          <span class="legend-line legend-line--dashed"></span>
+          Série B (2ª Divisão)
+        </span>
+      </div>
+
+      <div class="chart-wrapper">
+        <canvas id="history-chart" aria-label="Gráfico de posições do Ceará no Brasileirão"></canvas>
+      </div>
+
+      <p class="chart-note">
+        ↑ Melhor posição (1º lugar) aparece no topo. A zona sombreada em vermelho indica
+        a faixa de rebaixamento (posições 17–20).
+      </p>
+    </section>
+
+    <!-- ABA 2: Jogos 2026 -->
+    <section id="jogos2026" class="tab-panel" role="tabpanel" hidden>
+      <div class="section-header">
+        <h2>Todos os Jogos em 2026</h2>
+        <p class="section-desc">
+          Resultados completos com competição, adversário e marcadores de gols.
+          Atualizado até <span id="last-updated">—</span>.
+        </p>
+      </div>
+
+      <div class="match-summary" id="match-summary">
+        <!-- Preenchido por table_matches.js -->
+      </div>
+
+      <div id="matches-container">
+        <!-- Preenchido por table_matches.js -->
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Dados de caráter informativo. Atualize <code>data/matches_2026.json</code> após cada partida.</p>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

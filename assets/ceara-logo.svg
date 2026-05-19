@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Escudo do Ceará Sporting Club">
+  <!-- Escudo simplificado com as cores do Ceará (preto e branco) -->
+  <defs>
+    <clipPath id="shield-clip">
+      <path d="M50 4 L90 20 L90 58 Q90 80 50 96 Q10 80 10 58 L10 20 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Contorno do escudo -->
+  <path d="M50 4 L90 20 L90 58 Q90 80 50 96 Q10 80 10 58 L10 20 Z"
+        fill="#1a1a1a" stroke="#ffffff" stroke-width="2"/>
+
+  <!-- Metade esquerda branca -->
+  <rect x="10" y="4" width="40" height="92" clip-path="url(#shield-clip)" fill="#ffffff"/>
+
+  <!-- Faixa diagonal preta sobre o branco -->
+  <polygon points="10,20 50,4 50,50 10,58" fill="#1a1a1a" clip-path="url(#shield-clip)"/>
+
+  <!-- Letras CSC -->
+  <text x="50" y="62"
+        font-family="'Segoe UI', Arial, sans-serif"
+        font-size="14"
+        font-weight="900"
+        text-anchor="middle"
+        fill="#ffffff"
+        letter-spacing="1">CSC</text>
+
+  <!-- Estrela decorativa no topo -->
+  <polygon points="50,10 52,16 58,16 53,20 55,26 50,22 45,26 47,20 42,16 48,16"
+           fill="#ffffff" opacity="0.9"/>
+</svg>
